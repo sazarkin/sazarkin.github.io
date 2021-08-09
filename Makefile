@@ -30,6 +30,7 @@ watch:
 .PHONY: docs
 docs:
 	rm -vrf docs && mkdir -p docs && cp -vr public/* docs
+	echo "azarkin.dev" > docs/CNAME
 
 # Generalized rule: how to build a .html file from each .md
 # Note: you will need pandoc 2 or greater for this to work
