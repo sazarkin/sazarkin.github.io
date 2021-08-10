@@ -102,6 +102,24 @@
   --main-width-narrow: 550px;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #111;
+    --color-text: #e4d8cc;
+    --color-text-secondary: #9c8d7d;
+    --color-link: #58a6ff;
+    --color-sidenote: #9e968f;
+
+    --color-inline-code: #f3f3f8;
+    --color-inline-code-bg: #1b2733;
+
+    --color-border: #41415f;
+    --color-border-heavy: #5a5a4c;
+
+    --color-table-heading: #0c0c04;
+  }
+}
+
 *, *:after, *:before {
   box-sizing: border-box;
   margin: 0;
