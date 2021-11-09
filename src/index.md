@@ -1,11 +1,8 @@
 ---
-title: Hello World
+title: Hello W3
 ...
 
-# Welcome!
+# Contacts
 
-This is a test of *pandoc*.
-
-- list one
-- list two
+For business inquiries <sergei@azarkin.dev>
 
